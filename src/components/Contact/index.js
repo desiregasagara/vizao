@@ -12,7 +12,7 @@ const Contact = () =>{
             <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact" className={styles.form}>
             <div>
                 <input type="hidden" name="bot-field" />
-                <input type="hidden" name="contacts" value="contact" />
+                <input type="hidden" name="form-name" value="contact" />
                 <div className={styles.formGroup}>
                 <label for="fname" required>
                     <p className={styles.text}>Name:</p>
