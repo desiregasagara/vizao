@@ -23,7 +23,7 @@ const NavBar = ({children}) => {
     return(
         <div className={styles.navbar}>
             <Container>
-                <div className={styles.navbarInner}>
+                <nav className={styles.navbarInner}>
                     <Link to='/#home' className={styles.logo}>Vizao</Link>
                     <ul className={styles.list}>
                         <li className={styles.listItem}><StyledLink to="/#home">Home</StyledLink></li>
@@ -31,7 +31,9 @@ const NavBar = ({children}) => {
                         <li className={styles.listItem}><StyledLink to="/#work">Work</StyledLink></li>
                     </ul>
                     <AnchorLink to="/#contact" ><button className={styles.button}>Get in touch</button></AnchorLink>
-                </div>
+                    <label className={styles.label} for="toggle" >&#9776;</label>
+                    <input type="checkbox" id="toggle" className={styles.toggle}/>
+                </nav>
             </Container>
             <main>
                 {children}

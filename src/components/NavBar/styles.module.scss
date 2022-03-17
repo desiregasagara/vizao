@@ -4,6 +4,7 @@
     height: 120px;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     background-color: #000000;
@@ -53,7 +54,24 @@ h1{
     font-family: 'Noto Serif Display', serif;
     font-size: 24px;
     color: #FFF;
+    max-height:3rem ;
 }
 .button:hover{
     background-color: rgba(169,169,169,0.8);
 }
+.label{
+    margin: 0 2.5rem 0 0;
+    font-size: 1.7rem ;
+    display: none;
+}
+.toggle{
+    display: none;
+}
+@media only screen and (max-width:500px){
+    .label{
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
