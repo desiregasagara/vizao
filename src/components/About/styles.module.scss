@@ -1,0 +1,88 @@
+@import "../../Sass/basics.scss";
+
+.background{
+    background-color: black;
+    width: 100%;
+    padding-top: 9.4rem;
+    padding-bottom:9.4rem;
+    font-family: 'Noto Serif Display', serif; 
+    color: white;
+    
+}
+.page-title{
+    text-align: center;
+    font-family: inherit;
+    font-size: 40px;
+    margin: 0 9.4rem 0 9.4rem;
+}
+.description{
+    color:#d3d3d3;
+    text-align:center;
+    font-family:inherit;
+    font-size: 2rem;
+    margin: 2rem 9.4rem 0 9.4rem;
+}
+.lines{
+    align-self: center;
+    margin: 0 9.4rem 0 9.4rem;
+}
+.intro-text{
+    margin-top:-5rem;
+}
+.header{
+    font-family: 'Noto Serif Display', serif;
+    text-align:start;
+    margin-left:5.3rem;
+    
+}
+.image-bar{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.image1{
+    width:auto;
+    margin-left:5.3rem;
+    margin-top:4rem;
+    color:rgba(210,210,210, 1.0);
+    box-shadow: 0 0 0 250px inset #a9a9a9,0 0 5px grey;
+
+}
+
+.image2{
+    width:auto;
+    color:#d3d3d3;
+    max-height: 21rem;
+}
+.image-details{
+    float:left;
+    width:35%;
+    height: auto;
+}
+.container{
+    float:right;
+    max-width:50%;
+    margin-right: 9rem;
+    margin-top: 2rem;
+}
+.text-descriptions{
+    color:#a9a9a9;
+    font-size: 1.6rem;
+
+}
+.image-details2{
+    float:right;
+    width:35%;
+    margin-right: 5.3rem;
+    margin-top: 4rem;
+}
+.container-two{
+    float:left;
+    max-width:50%;
+    width:auto;
+    margin-top: 4rem;
+    margin-left: 5.3rem;
+}
+.clear{
+    clear: both;
+}

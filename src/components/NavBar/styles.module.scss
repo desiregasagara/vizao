@@ -1,0 +1,59 @@
+@import "../../Sass/variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+.navbar{
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000;
+    color: #FFF;
+}
+.navbarInner{
+    display:flex;
+    margin-right:30px;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+h1{
+    margin:0;
+}
+.logo{
+    margin:0 auto 0 87px;
+    color:$white;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 50px;
+    text-decoration: none;
+}
+.list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+   
+}
+.list-item{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 24px;
+    list-style-type:none;
+    transition: all 0.3s ease 0;
+}
+.list-item:hover{
+    color:#a9a9a9;
+}
+.button{
+    margin-left:20px;
+    background-color: rgba(169,169,169,1);
+    padding: 8px 25px;
+    border: none;
+    border-radius: 1.563rem;
+    cursor:pointer;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 24px;
+    color: #FFF;
+}
+.button:hover{
+    background-color: rgba(169,169,169,0.8);
+}
