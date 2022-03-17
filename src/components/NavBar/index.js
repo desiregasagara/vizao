@@ -22,7 +22,6 @@ const StyledLink = styled(props => <AnchorLink {...props} />)`
 const NavBar = ({children}) => {
     return(
         <div className={styles.navbar}>
-            <Container>
                 <nav className={styles.navbarInner}>
                     <Link to='/#home' className={styles.logo}>Vizao</Link>
                     <ul className={styles.list}>
@@ -34,7 +33,6 @@ const NavBar = ({children}) => {
                     <label className={styles.label} for="toggle" >&#9776;</label>
                     <input type="checkbox" id="toggle" className={styles.toggle}/>
                 </nav>
-            </Container>
             <main>
                 {children}
             </main>
