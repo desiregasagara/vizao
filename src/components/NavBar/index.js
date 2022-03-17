@@ -1,6 +1,5 @@
 import * as React from 'react';
 import * as styles from './styles.module.scss';
-import Container from '../container';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
