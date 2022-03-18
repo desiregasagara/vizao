@@ -20,6 +20,7 @@ const IndexPage = () => {
         <Link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5"></Link>
         <meta name="msapplication-TileColor" content="#da532c"></meta>
         <meta name="theme-color" content="#000"></meta>
+        <title>Vizao Landing Page</title>
       </head>
       <NavBar/>
       <IntroBlock/>
