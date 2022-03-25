@@ -5,7 +5,7 @@ const Contact = () =>{
     return(
         <div className={styles.background}>
             <div className={styles.title} id="contact">
-                <h3>Contact Us:</h3>
+                <h3 className={styles.textTitles}>Contact Us:</h3>
                 <p className={styles.description}>Let us know more about you and your project so 
                 we can schedule a meeting with one of our experts.</p>
             </div>
@@ -44,9 +44,11 @@ const Contact = () =>{
                     ></textarea>
                 </label>
                 </div>
-                <button type="submit" id="submit" className={styles.buttons}>
-                    Submit
-                </button>
+                <div className={styles.bdiv}>
+                    <button type="submit" id="submit" className={styles.buttons}>
+                        Submit
+                    </button>
+                </div>
     
             </div>
             </form>

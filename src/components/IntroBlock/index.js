@@ -10,15 +10,16 @@ const IntroBlock = () =>{
     return(
         <div className={styles.heroContainer} >
             <div className={styles.content}>
-                <StaticImage src='../../images/halfvine.jpg' imgClassName={styles.img} className={styles.imgContainer}/>
+                <StaticImage src='../../images/halfvine2.jpg' imgClassName={styles.img} className={styles.imgContainer}/>
             </div>
             <div className={styles.textContainer}>
                 <h1 className={styles.HeroText}>A digital product studio <br/> that turns your vision into a reality. </h1>
-                <AnchorLink to="/#about"><button className={styles.btn}>Know More</button></AnchorLink>
+                <button className={styles.btn}><AnchorLink to="/#about" className={styles.link}>Know More</AnchorLink></button>
             </div>
-            <StaticImage src='../../images/child.jpg'
+            
+            <StaticImage src='../../images/child2.jpg'
             className={styles.img2} />
-           
+    
             
     </div>    
     )

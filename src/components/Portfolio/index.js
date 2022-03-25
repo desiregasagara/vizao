@@ -5,14 +5,14 @@ import styled from 'styled-components';
 import { StaticImage } from 'gatsby-plugin-image';
 
 const StyledLink = styled(props => <Link {...props} />)`
-    text-decoration:none;
-    color: #a9a9a9;
+    text-decoration:underline;
+    color: #fff;
     &:hover {
-        color: #a9a9a9;
+        color: #fff;
         text-decoration:underline;
     } 
     &:visited {
-        color: #a9a9a9;;
+        color: #a9a9a9;
     } 
 `;
 
@@ -20,7 +20,7 @@ const Portfolio = () =>{
     return(
         <div className={styles.background}>
             <div className={styles.headingText} id="work">
-            <h2> Our Past Work:</h2>
+            <h2 className={styles.pageTitle}> Our Past Work:</h2>
             <p className={styles.description}>We are very proud of the projects we've worked on. You can see some of them 
             <StyledLink href='https://codepen.io/Vizao' target="_blank" rel="noreferrer"> here.</StyledLink></p>
             </div>
@@ -51,7 +51,7 @@ const Portfolio = () =>{
                 >
                 <StaticImage
                     className={styles.projectImage2}
-                    src="../../images/Surveyform.png"
+                    src="../../images/Surveyform_ccexpress.png"
                     alt="project"
                 />
                 <p className={styles.projectTitle}>

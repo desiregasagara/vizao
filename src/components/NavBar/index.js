@@ -9,7 +9,7 @@ const StyledLink = styled(props => <AnchorLink {...props} />)`
   padding:30px;
   display:block;
   color:white;
-  font-size:24px;
+  font-size:calc(1rem + (1.5 - 1) * ((100vw - 25rem) / (80 - 25)));
   text-decoration:none;
   &:hover {
     color: #a9a9a9;;
@@ -24,7 +24,6 @@ const NavBar = ({children}) => {
                 <nav className={styles.navbarInner}>
                     <Link to='/#home' className={styles.logo}>Vizao</Link>
                     <ul className={styles.list}>
-                        <li className={styles.listItem}><StyledLink to="/#home">Home</StyledLink></li>
                         <li className={styles.listItem}><StyledLink to="/#about">About</StyledLink></li>
                         <li className={styles.listItem}><StyledLink to="/#work">Work</StyledLink></li>
                     </ul>

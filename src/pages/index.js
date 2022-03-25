@@ -1,5 +1,5 @@
 import * as React from 'react'
-import NavBar from '../components/NavBar'
+import NavBars from '../components/NavBars'
 import IntroBlock from '../components/IntroBlock'
 import '../Sass/basics.scss'
 import About from '../components/About'
@@ -7,7 +7,8 @@ import QuoteBar from '../components/QuoteBar'
 import Portfolio from '../components/Portfolio'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
-import { Link } from 'gatsby'
+import { Link } from 'gatsby' 
+import NavBar2 from '../components/Navbar2'
 const IndexPage = () => {
 
   return(
@@ -22,7 +23,7 @@ const IndexPage = () => {
         <meta name="theme-color" content="#000"></meta>
         <title>Mobile App Developer | Web Developer | Vizao </title>
       </head>
-      <NavBar/>
+      <NavBar2/>
       <IntroBlock/>
       <About/>
       <QuoteBar/>

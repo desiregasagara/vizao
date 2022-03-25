@@ -24,7 +24,7 @@ h1{
     margin:0 auto 0 87px;
     color:$white;
     font-family: 'Noto Serif Display', serif;
-    font-size: 50px;
+    font-size:calc(1.5rem + (3.125 - 1.5) * ((100vw - 25rem) / (80 - 25)));
     text-decoration: none;
 }
 .list{
@@ -37,7 +37,6 @@ h1{
     margin: 0;
     padding: 0px;
     font-family: 'Noto Serif Display', serif;
-    font-size: 24px;
     list-style-type:none;
     transition: all 0.3s ease 0;
 }
@@ -45,33 +44,40 @@ h1{
     color:#a9a9a9;
 }
 .button{
-    margin-left:20px;
+    display: inline-block;
+    margin-left:1.25rem;
     background-color: rgba(169,169,169,1);
-    padding: 8px 25px;
+    padding: 0.5rem 1.563rem;
     border: none;
     border-radius: 1.563rem;
     cursor:pointer;
     font-family: 'Noto Serif Display', serif;
-    font-size: 24px;
+    font-size: calc(1rem + (1.5 - 1) * ((100vw - 25rem) / (80 - 25)));
     color: #FFF;
+    min-width: 180px;
     max-height:3rem ;
+    text-align: center;
+
 }
 .button:hover{
     background-color: rgba(169,169,169,0.8);
 }
 .label{
-    margin: 0 2.5rem 0 0;
+    margin: 0 0 0 0;
     font-size: 1.7rem ;
     display: none;
+    color:white;
 }
 .toggle{
     display: none;
 }
-@media only screen and (max-width:500px){
+@media (max-width:500px){
     .label{
-        display: block;
+        display: inline-block;
         cursor: pointer;
     }
+    
+    
 
 }
 
