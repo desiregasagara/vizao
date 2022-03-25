@@ -7,7 +7,7 @@ import * as styles from './styles.module.scss';
 import styled from 'styled-components';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
-if(window !== "undefined"){
+
 
 const StyledLink = styled(props => <AnchorLink {...props} />)`
   display:block;
@@ -23,6 +23,7 @@ const StyledLink = styled(props => <AnchorLink {...props} />)`
    
   
 const NavBar2 = () => {
+const isBrowser = typeof window !== "undefined"
     return(
        <div>
         
@@ -45,7 +46,7 @@ const NavBar2 = () => {
         </div>
     )
 }
-}
+
 
     
 export default NavBar2;
