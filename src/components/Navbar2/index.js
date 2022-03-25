@@ -22,7 +22,7 @@ const NavBar2 = () => {
         <>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className={styles.navBar}>
             <Container>
-            <Navbar.Brand className={styles.logo}>Vizao</Navbar.Brand>
+           
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className={"ms-auto"}>
