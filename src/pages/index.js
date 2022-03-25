@@ -7,10 +7,9 @@ import Portfolio from '../components/Portfolio'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import { Link } from 'gatsby' 
-import NavBar2 from '../components/Navbar2'
 
 import NavBar from '../components/NavBar'
-import NavBars from '../components/NavBars'
+
 
 const IndexPage = () => {
 
