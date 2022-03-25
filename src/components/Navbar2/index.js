@@ -1,6 +1,7 @@
 import * as React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
+import "@popperjs/core/dist/umd/popper.min";
 import {Nav,Navbar,Container} from 'react-bootstrap'
 import * as styles from './styles.module.scss';
 import styled from 'styled-components';
@@ -22,7 +23,7 @@ const NavBar2 = () => {
         <>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className={styles.navBar}>
             <Container>
-           
+            <Navbar.Brand className={styles.logo}>Vizao</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className={"ms-auto"}>
