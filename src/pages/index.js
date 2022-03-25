@@ -9,6 +9,9 @@ import Footer from '../components/Footer'
 import { Link } from 'gatsby' 
 import NavBar2 from '../components/Navbar2'
 
+import NavBar from '../components/NavBar'
+import NavBars from '../components/NavBars'
+
 const IndexPage = () => {
 
   return(
@@ -23,7 +26,7 @@ const IndexPage = () => {
         <meta name="theme-color" content="#000"></meta>
         <title>Mobile App Developer | Web Developer | Vizao </title>
       </head>
-      <NavBar2/>
+      <NavBar/>
       <IntroBlock/>
       <About/>
       <QuoteBar/>

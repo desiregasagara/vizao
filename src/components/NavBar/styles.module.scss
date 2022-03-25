@@ -11,26 +11,43 @@
     color: #FFF;
 }
 .navbarInner{
-    display:flex;
-    margin-right:30px;
+    line-height: 30px;
     align-items: center;
     justify-content: flex-end;
     
+}
+
+.textdiv{
+    display: flex;
+    line-height: 30px;
+    margin: auto 5% auto auto;
+}
+.dleft{
+    display: flex;
 }
 h1{
     margin:0;
 }
 .logo{
-    margin:0 auto 0 87px;
+    margin:auto auto auto 5%;
     color:$white;
     font-family: 'Noto Serif Display', serif;
     font-size:calc(1.5rem + (3.125 - 1.5) * ((100vw - 25rem) / (80 - 25)));
     text-decoration: none;
 }
+.logo2{
+    margin:auto;
+    color:$white;
+    font-family: 'Noto Serif Display', serif;
+    font-size:calc(1.5rem + (3.125 - 1.5) * ((100vw - 25rem) / (80 - 25)));
+    text-decoration: none;
+    display: none;
+}
 .list{
     margin: 0;
     padding: 0;
     display: flex;
+    margin-left: -2%;
    
 }
 .list-item{
@@ -43,19 +60,20 @@ h1{
 .list-item:hover{
     color:#a9a9a9;
 }
+.b-link{
+    margin:auto;
+}
 .button{
     display: inline-block;
-    margin-left:1.25rem;
     background-color: rgba(169,169,169,1);
     padding: 0.5rem 1.563rem;
     border: none;
     border-radius: 1.563rem;
     cursor:pointer;
     font-family: 'Noto Serif Display', serif;
-    font-size: calc(1rem + (1.5 - 1) * ((100vw - 25rem) / (80 - 25)));
+    font-size: calc(0.8rem + (1.5 - 0.8) * ((100vw - 25rem) / (80 - 25)));
     color: #FFF;
-    min-width: 180px;
-    max-height:3rem ;
+
     text-align: center;
 
 }
@@ -65,18 +83,53 @@ h1{
 .label{
     margin: 0 0 0 0;
     font-size: 1.7rem ;
+    line-height: 30px;
     display: none;
     color:white;
 }
 .toggle{
     display: none;
 }
-@media (max-width:500px){
+@media all and (max-width:768px){
     .label{
         display: inline-block;
         cursor: pointer;
+        width:5%;
+        margin-left: 70%;
+        
+     
+    }
+    .navbar{
+        height: auto;
     }
     
+    .textdiv, .list-item,.dleft,.list{
+        display: block
+    }
+    .textdiv{
+        text-align: center;
+        margin-top: 15px;
+        width: 100%;
+        display: none;
+    }
+    input{
+        &:checked + .textdiv{
+            display: block;
+        }
+    }
+    .logo{
+        line-height: 30px;
+        margin-left: 2%;
+        display: none;
+    }
+    .logo2{
+        display: inline-block;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .button{
+        margin-top: 3%;
+    }
     
 
 }

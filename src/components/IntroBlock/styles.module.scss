@@ -78,7 +78,7 @@
 .btn{
     display: flex;
     justify-content: center;
-    margin: auto auto auto auto;
+    margin: 5% auto auto auto;
     cursor: pointer;
     border: 1px solid #000000;
     background-color: transparent;
@@ -103,5 +103,8 @@
     .content{
         min-height:calc(13rem + (21.875 - 13) * ((100vw - 18.75rem) / (50 - 18.75)));
    
+    }
+    .btn{
+        margin: auto;
     }
 }
