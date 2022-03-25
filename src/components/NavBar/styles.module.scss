@@ -126,7 +126,11 @@ h1{
         display: inline-block;
         margin-left: 3%;
         margin-top: 3%;
+        &:hover {
+            color: #a9a9a9;;
+          }
     }
+   
     .button{
         margin-top: 3%;
     }
