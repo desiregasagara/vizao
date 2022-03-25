@@ -6,7 +6,7 @@ module.exports = {
     plugins: [
       'gatsby-plugin-sass', "gatsby-plugin-image",
       "gatsby-plugin-sharp",`gatsby-plugin-styled-components`,
-     `gatsby-plugin-anchor-links` ,`gatsby-plugin-netlify`,`gatsby-plugin-offline`,
+     `gatsby-plugin-anchor-links` ,`gatsby-plugin-netlify`,`gatsby-plugin-offline`,`gatsby-transformer-sharp`,
      {
       resolve: `gatsby-plugin-manifest`,
       options: {
