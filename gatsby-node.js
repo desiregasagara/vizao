@@ -4,7 +4,7 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
         module: {
           rules: [
             {
-              test: /react-bootstrap/,
+              test: /@poppersjs/,
               use: loaders.null(),
             },
           ],
