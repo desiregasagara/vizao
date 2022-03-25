@@ -19,6 +19,7 @@ const StyledLink = styled(props => <AnchorLink {...props} />)`
 `;
 
 if(window !== "undefined"){
+   
   
 const NavBar2 = () => {
     return(
@@ -42,5 +43,7 @@ const NavBar2 = () => {
         </>
     )
 }
-}
+
+    
 export default NavBar2;
+}
