@@ -1,5 +1,4 @@
 import * as React from 'react'
-import NavBars from '../components/NavBars'
 import IntroBlock from '../components/IntroBlock'
 import '../Sass/basics.scss'
 import About from '../components/About'
@@ -9,6 +8,7 @@ import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import { Link } from 'gatsby' 
 import NavBar2 from '../components/Navbar2'
+
 const IndexPage = () => {
 
   return(
@@ -36,3 +36,18 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
+  if (stage === "build-html" || stage === "develop-html") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /bad-module/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    })
+  }
+}
