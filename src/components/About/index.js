@@ -69,7 +69,7 @@ const About = () =>{
                 </div>
                 <div className={styles.containerTwo}>
                     <h3 className={styles.textTitles}>Deploy</h3>
-                    <p className={styles.textDescriptions}> We understand your digital product journey doesn't end at launch. Consequently, our team can help support
+                    <p className={styles.textDescriptions}> We understand your digital product journey doesn't end at launch. Hence, our team can help support
                     your product for long after launch to bring it the success it deserves.
                     </p>
             </div>

@@ -7,7 +7,6 @@ import Portfolio from '../components/Portfolio'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import { Link } from 'gatsby' 
-
 import NavBar from '../components/NavBar'
 
 
@@ -16,6 +15,8 @@ const IndexPage = () => {
   return(
     <div id="home">
       <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
         <Link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png"></Link>
         <Link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png"></Link>
         <Link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png"></Link>

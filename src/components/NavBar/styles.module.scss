@@ -1,17 +1,17 @@
 @import "../../Sass/variables.scss";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
 .navbar{
-    height: 120px;
+    height: 7.5rem;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     flex-direction: column;
     justify-content: center;
     background-color: #000000;
-    color: #FFF;
+    color: #000;
 }
 .navbarInner{
-    line-height: 30px;
+    line-height: 1.875rem;
     align-items: center;
     justify-content: flex-end;
     
@@ -19,7 +19,7 @@
 
 .textdiv{
     display: flex;
-    line-height: 30px;
+    line-height: 1.875rem;
     margin: auto 5% auto auto;
 }
 .dleft{
@@ -42,7 +42,9 @@ h1{
     font-size:calc(1.5rem + (3.125 - 1.5) * ((100vw - 25rem) / (80 - 25)));
     text-decoration: none;
     display: none;
+
 }
+
 .list{
     margin: 0;
     padding: 0;
@@ -83,7 +85,7 @@ h1{
 .label{
     margin: 0 0 0 0;
     font-size: 1.7rem ;
-    line-height: 30px;
+    line-height: 1.875rem;
     display: none;
     color:white;
 }
@@ -108,7 +110,7 @@ h1{
     }
     .textdiv{
         text-align: center;
-        margin-top: 15px;
+        margin-top: 0.938rem;
         width: 100%;
         display: none;
     }
@@ -118,7 +120,7 @@ h1{
         }
     }
     .logo{
-        line-height: 30px;
+        line-height: 1.875rem;
         margin-left: 2%;
         display: none;
     }
