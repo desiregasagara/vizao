@@ -14,7 +14,7 @@ const IntroBlock = () =>{
             </div>
             <div className={styles.textContainer}>
                 <h1 className={styles.HeroText}>A digital product studio <br/> that turns your vision into a reality. </h1>
-                <button className={styles.btn}><AnchorLink to="/#about" className={styles.link}>Know More</AnchorLink></button>
+                <AnchorLink to="/#about" className={styles.link}> <button className={styles.btn}>Know More</button></AnchorLink>
             </div>
             
             <StaticImage src='../../images/child2.jpg'

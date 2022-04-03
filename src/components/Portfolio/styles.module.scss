@@ -4,7 +4,7 @@
     padding: 0;
     margin:0;
     text-align: center;
-    padding: 4rem 11% 20% 11%;
+    padding: 4rem 11% 4rem 11%;
 }
 h2{
     padding:0;
@@ -38,6 +38,9 @@ a#link:hover {
     
     
   }
+  .project-image:hover{
+    top:-2%;
+  }
   .project2{
     float:right;
     width: 100%;
@@ -59,12 +62,20 @@ a#link:hover {
     height:22rem;
     width: auto;
     object-fit: cover;
+    transition: top ease 0.5s;
+  }
+  .project-image:hover{
+    top:-10px;
+  }
+  .project-image2:hover{
+    top:-10px;
   }
 .project-image2{
     margin-top: -0.2rem;
     height:22rem;
     width: auto;
     object-fit: cover;
+    transition: top ease 0.5s;
   }
   .code {
     color: white;

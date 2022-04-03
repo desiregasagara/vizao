@@ -20,11 +20,11 @@ const Portfolio = () =>{
     return(
         <div className={styles.background}>
             <div className={styles.headingText} id="work">
-            <h2 className={styles.pageTitle}> Our Past Work:</h2>
-            <p className={styles.description}>We are very proud of the projects we've worked on. You can see some of them 
-            <StyledLink href='https://codepen.io/Vizao' target="_blank" rel="noreferrer"> here.</StyledLink></p>
+            <h2 className={styles.pageTitle} data-sal="slide-up" data-sal-delay= "100" data-sal-easing="linear"> Our Past Work:</h2>
+            <p className={styles.description} data-sal="slide-up" data-sal-delay="300" data-sal-easing="linear">We are very proud of the projects we've worked on. Here is  
+            <StyledLink href='https://codepen.io/Vizao' target="_blank" rel="noreferrer"> some of the previous work we've done.</StyledLink></p>
             </div>
-            <div className={styles.project1}>
+            <div className={styles.project1} data-sal="slide-up" data-sal-delay="300" data-sal-duration="400" data-sal-easing="linear">
                 <StyledLink
                 href="https://codepen.io/Vizao/full/vYWrQRV"
                 target="_blank"
@@ -43,7 +43,7 @@ const Portfolio = () =>{
                 </StyledLink>
                
             </div>
-            <div className={styles.project2}>
+            <div className={styles.project2} data-sal="slide-up" data-sal-delay="600" data-sal-duration="400">
                 <StyledLink
                 href="https://codepen.io/Vizao/full/xxPJqZz"
                 target="_blank"

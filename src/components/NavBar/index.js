@@ -34,7 +34,7 @@ const NavBar = ({children}) => {
                     <div className={styles.dleft}>
                     <ul className={styles.list}>
                         <li className={styles.listItem}><StyledLink to="/#about">About</StyledLink></li>
-                        <li className={styles.listItem}><StyledLink to="/#work">Work</StyledLink></li>
+                        <li className={styles.listItem2}><StyledLink to="/#work">Work</StyledLink></li>
                     </ul>
                     <AnchorLink to="/#contact" className={styles.bLink} ><button className={styles.button}>Contact Us</button></AnchorLink>
                     </div>

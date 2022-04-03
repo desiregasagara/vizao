@@ -9,12 +9,18 @@
     justify-content: center;
     background-color: #000000;
     color: #000;
+    animation: reveal2 0.5s linear forwards;
 }
 .navbarInner{
     line-height: 1.875rem;
     align-items: center;
     justify-content: flex-end;
     
+}
+.primary-icon{
+    height:auto;
+    width:8.25rem;
+    margin-bottom:1rem;
 }
 
 .textdiv{
@@ -34,7 +40,10 @@ h1{
     font-family: 'Noto Serif Display', serif;
     font-size:calc(1.5rem + (3.125 - 1.5) * ((100vw - 25rem) / (80 - 25)));
     text-decoration: none;
+    animation: reveal2 2.4s linear forwards;
 }
+
+
 .logo2{
     margin:auto;
     color:$white;
@@ -42,7 +51,15 @@ h1{
     font-size:calc(1.5rem + (3.125 - 1.5) * ((100vw - 25rem) / (80 - 25)));
     text-decoration: none;
     display: none;
-
+    animation: reveal2 2.4s linear forwards;
+}
+@keyframes reveal2 {
+    0%{
+        opacity:0;
+    }
+    100%{
+       opacity:1;
+    }
 }
 
 .list{
@@ -58,6 +75,15 @@ h1{
     font-family: 'Noto Serif Display', serif;
     list-style-type:none;
     transition: all 0.3s ease 0;
+    animation: reveal2 2.4s linear forwards;
+}
+.list-item2{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Noto Serif Display', serif;
+    list-style-type:none;
+    transition: all 0.3s ease 0;
+    animation: reveal2 2.4s linear forwards;
 }
 .list-item:hover{
     color:#a9a9a9;
@@ -75,7 +101,7 @@ h1{
     font-family: 'Noto Serif Display', serif;
     font-size: calc(0.8rem + (1.5 - 0.8) * ((100vw - 25rem) / (80 - 25)));
     color: #FFF;
-
+    animation: reveal2 2.4s linear forwards;
     text-align: center;
 
 }
@@ -91,6 +117,9 @@ h1{
 }
 .toggle{
     display: none;
+}
+@media (prefers-reduced-motion: no-preference)  {
+    
 }
 @media all and (max-width:768px){
     .label{

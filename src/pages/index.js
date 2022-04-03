@@ -8,6 +8,8 @@ import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import { Link } from 'gatsby' 
 import NavBar from '../components/NavBar'
+import smoothscroll from 'smoothscroll-polyfill';
+
 
 
 const IndexPage = () => {
@@ -36,6 +38,7 @@ const IndexPage = () => {
     </div>
    
   )
-}
 
+}
+smoothscroll.polyfill();
 export default IndexPage
