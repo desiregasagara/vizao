@@ -48,7 +48,7 @@ const Contact = () =>{
                     ></textarea>
                 </label>
                 </div>
-                <div className={styles.bdiv} data-sal="slide-up" data-sal-delay= "200" data-sal-easing="linear">
+                <div className={styles.bdiv} data-sal="slide-up" data-sal-delay= "0" data-sal-easing="linear">
                     <button type="submit" id="submit" className={styles.buttons}>
                         Submit
                     </button>

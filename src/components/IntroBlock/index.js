@@ -10,7 +10,7 @@ const IntroBlock = () =>{
     return(
         <div className={styles.heroContainer} >
             <div className={styles.content}>
-                <StaticImage src='../../images/halfvine2.jpg' imgClassName={styles.img} className={styles.imgContainer}/>
+                <StaticImage src='../../images/halfvine2.jpg' loading= "eager" imgClassName={styles.img} className={styles.imgContainer}/>
             </div>
             <div className={styles.textContainer}>
                 <h1 className={styles.HeroText}>A digital product studio <br/> that turns your vision into a reality. </h1>
@@ -18,6 +18,7 @@ const IntroBlock = () =>{
             </div>
             
             <StaticImage src='../../images/child2.jpg'
+            loading= "eager"
             className={styles.img2} />
     
             

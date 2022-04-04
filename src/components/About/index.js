@@ -5,25 +5,25 @@ import * as styles from  './styles.module.scss';
 const About = () =>{
     return(
     <div className={styles.background} id="about">
-        <div className={styles.introText }  data-sal="slide-up" data-sal-delay= "100" data-sal-easing="linear">
+        <div className={styles.introText }  data-sal="slide-up"  data-sal-duration="200" data-sal-easing="linear">
             <hr className={styles.lines} ></hr>
             <h2 className={styles.pageTitle}> We build seamless Web and Mobile Software</h2>
             <hr className={styles.lines} ></hr>
             </div>
         
-            <p className={styles.description} data-sal="slide-up" data-sal-delay="300" data-sal-easing="linear" >We are a software development and UI//UX company based in the UK that place customer experience and top quality delivery at the forefront of everything we do.</p>
-        <div data-sal="slide-up" data-sal-delay="0" data-sal-duration="400"data-sal-easing="linear" >
+            <p className={styles.description} data-sal="slide-up"  data-sal-duration="400" data-sal-easing="linear" >We are a software development and UI//UX company based in the UK that place customer experience and top quality delivery at the forefront of everything we do.</p>
+        <div data-sal="slide-up" data-sal-easing="linear" >
         <h2 className={styles.header}>Our Workflow</h2>
         <div classname={styles.imageBar}   >
-            <div className={styles.imageDetails} data-sal="slide-up" data-sal-delay="0" data-sal-duration="200" data-sal-easing="linear">
+            <div className={styles.imageDetails} data-sal="slide-up"  data-sal-duration="200" data-sal-easing="linear">
                 <StaticImage src="../../images/hal-gatewood-tZc3vjPCk-Q-unsplash_ccexpress.jpeg" 
                 alt="sketch of app concepts"
                 className={styles.image1}
                 />
             </div>
             <div className={styles.container}>
-                <h3 className={styles.textTitles} data-sal="slide-up" data-sal-delay="0" data-sal-duration="200" data-sal-easing="linear">Discover</h3>
-                <p className={styles.textDescriptions}data-sal="slide-up" data-sal-delay="0" data-sal-duration="400"  data-sal-easing="linear">Finding an optimal solution is the key to your digital product's success. Our 
+                <h3 className={styles.textTitles} data-sal="slide-up"  data-sal-duration="200" data-sal-easing="linear">Discover</h3>
+                <p className={styles.textDescriptions}data-sal="slide-up"  data-sal-duration="400"  data-sal-easing="linear">Finding an optimal solution is the key to your digital product's success. Our 
                 digital team works with you to solve problems, legitimize your ideas and create the ideal roadmap for your organisation's digital journey.
                 </p>
             </div>
@@ -54,6 +54,7 @@ const About = () =>{
                 <div className={styles.imageDetails}>
                     <StaticImage src="../../images/christopher-gower-m_HRfLhgABo-unsplash (1)_ccexpress.jpeg" 
                     alt="sketch of app concepts"
+                    loading= "eager"
                     className={styles.image1}
                     />
                 </div>

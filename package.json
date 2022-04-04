@@ -31,6 +31,7 @@
     "gatsby-plugin-sass": "^5.9.0",
     "gatsby-plugin-scroll-reveal": "^0.0.7",
     "gatsby-plugin-sharp": "^4.10.2",
+    "gatsby-plugin-sitemap": "^5.11.1",
     "gatsby-plugin-smoothscroll": "^1.2.0",
     "gatsby-plugin-styled-components": "^5.10.0",
     "gatsby-source-filesystem": "^4.9.0",
