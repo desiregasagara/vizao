@@ -2,10 +2,10 @@ import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
 import * as styles from  './styles.module.scss';
-{/*The hero page is split into three elements, in order to accomodate for top image animation
+/*The hero page is split into three elements, in order to accomodate for top image animation
 
 */
-}
+
 const IntroBlock = () =>{
     return(
         <div className={styles.heroContainer} >

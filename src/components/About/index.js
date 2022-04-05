@@ -68,7 +68,7 @@ const About = () =>{
             </div> 
         </div>    
         <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="300" data-sal-easing="linear">
-            <div classname={styles.imageBars}>
+            <div classname={styles.imageBar}>
                 <div className={styles.imageDetails2}>
                     <StaticImage src="../../images/myriam-jessier-eveI7MOcSmw-unsplash_ccexpress (1).jpeg" 
                     alt="sketch of app concepts"
