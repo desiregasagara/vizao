@@ -7,7 +7,7 @@ const Footer =  () => {
 
     return(
         <div className={styles.container}>
-            <p>&#169; Copyright- {year}. All rights reserved.</p>
+            <p>&#169; {year} Vizao. Vizao is a software development company based in England and Wales.<br></br> All rights reserved.</p>
         </div>
     )
 } 

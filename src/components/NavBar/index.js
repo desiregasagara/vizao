@@ -24,7 +24,7 @@ const NavBar = ({children}) => {
     return(
         <div className={styles.navbar}>
                 <nav className={styles.navbarInner}>
-                    <Link to='/#home' className={styles.logo2}>Vizao</Link>
+                    <Link to='/#home' className={styles.logo2} >Vizao</Link>
                     <label className={styles.label} for="toggle" >&#9776;</label>
                     <input type="checkbox" id="toggle" className={styles.toggle}/>
                     

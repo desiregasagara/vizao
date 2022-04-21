@@ -5,25 +5,26 @@ import * as styles from  './styles.module.scss';
 const About = () =>{
     return(
     <div className={styles.background} id="about">
-        <div className={styles.introText }  data-sal="slide-up"  data-sal-duration="200" data-sal-easing="linear">
+        <div className={styles.introText }  >
             <hr className={styles.lines} ></hr>
             <h2 className={styles.pageTitle}> We build seamless Web and Mobile Software</h2>
             <hr className={styles.lines} ></hr>
             </div>
         
-            <p className={styles.description} data-sal="slide-up"  data-sal-duration="400" data-sal-easing="linear" >We are a software development and UI//UX company based in the UK that place customer experience and top quality delivery at the forefront of everything we do.</p>
-        <div data-sal="slide-up" data-sal-easing="linear" >
+            <p className={styles.description}  >We are a software development and UI//UX company based in the UK that place customer experience and top quality delivery at the forefront of everything we do.</p>
+        <div >
         <h2 className={styles.header}>Our Workflow</h2>
         <div classname={styles.imageBar}   >
-            <div className={styles.imageDetails} data-sal="slide-up"  data-sal-duration="200" data-sal-easing="linear">
+            <div className={styles.imageDetails}>
                 <StaticImage src="../../images/hal-gatewood-tZc3vjPCk-Q-unsplash_ccexpress.jpeg" 
-                alt="sketch of app concepts"
+                alt="Sketch of potential app concepts for discovery background"
+                loading= "eager"
                 className={styles.image1}
                 />
             </div>
             <div className={styles.container}>
-                <h3 className={styles.textTitles} data-sal="slide-up"  data-sal-duration="200" data-sal-easing="linear">Discover</h3>
-                <p className={styles.textDescriptions}data-sal="slide-up"  data-sal-duration="400"  data-sal-easing="linear">Finding an optimal solution is the key to your digital product's success. Our 
+                <h3 className={styles.textTitles} >Discover</h3>
+                <p className={styles.textDescriptions}>Finding an optimal solution is the key to your digital product's success. Our 
                 digital team works with you to solve problems, legitimize your ideas and create the ideal roadmap for your organisation's digital journey.
                 </p>
             </div>
@@ -35,7 +36,7 @@ const About = () =>{
         <div classname={styles.imageBar} >
             <div className={styles.imageDetails2}>
                 <StaticImage src="../../images/amelie-mourichon-sv8oOQaUb-o-unsplash_ccexpress.jpeg" 
-                alt="sketch of app concepts"
+                alt=" App design ideas image for design background"
                 className={styles.image2}
                 />
             </div>
@@ -53,7 +54,7 @@ const About = () =>{
             <div classname={styles.imageBar}>
                 <div className={styles.imageDetails}>
                     <StaticImage src="../../images/christopher-gower-m_HRfLhgABo-unsplash (1)_ccexpress.jpeg" 
-                    alt="sketch of app concepts"
+                    alt="Laptop with web development code for develop background image"
                     loading= "eager"
                     className={styles.image1}
                     />
@@ -71,7 +72,7 @@ const About = () =>{
             <div classname={styles.imageBar}>
                 <div className={styles.imageDetails2}>
                     <StaticImage src="../../images/myriam-jessier-eveI7MOcSmw-unsplash_ccexpress (1).jpeg" 
-                    alt="sketch of app concepts"
+                    alt="Google analytics page on laptop for deploy background image"
                     className={styles.image2}
                     />
                 </div>

@@ -33,7 +33,7 @@ const Portfolio = () =>{
                 <StaticImage
                     className={styles.projectImage}
                     src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
-                    alt="project"
+                    alt="Example of developed website by Vizao Uk"
                 />
                 <p className={styles.projectTitle}>
                     <span className={styles.code}></span>
@@ -52,7 +52,7 @@ const Portfolio = () =>{
                 <StaticImage
                     className={styles.projectImage2}
                     src="../../images/Surveyform_ccexpress.png"
-                    alt="project"
+                    alt="Example of developed website by Vizao Uk"
                 />
                 <p className={styles.projectTitle}>
                     <span className={styles.code}></span>
