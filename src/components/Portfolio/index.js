@@ -26,13 +26,13 @@ const Portfolio = () =>{
             </div>
             <div className={styles.project1} data-sal="slide-up" data-sal-delay="300" data-sal-duration="400" data-sal-easing="linear">
                 <StyledLink
-                href="https://codepen.io/Vizao/full/vYWrQRV"
+                href="https://vtsafrica.net"
                 target="_blank"
                 className={styles.projectTitle}
                 >
                 <StaticImage
                     className={styles.projectImage}
-                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+                    src="../../images/vts2.png"
                     alt="Example of developed website by Vizao Uk"
                 />
                 <p className={styles.projectTitle}>
@@ -45,13 +45,13 @@ const Portfolio = () =>{
             </div>
             <div className={styles.project2} data-sal="slide-up" data-sal-delay="600" data-sal-duration="400">
                 <StyledLink
-                href="https://codepen.io/Vizao/full/xxPJqZz"
+                href="https://codepen.io/Vizao/full/VwyQdPo"
                 target="_blank"
                 className={styles.projectTitle}
                 >
                 <StaticImage
                     className={styles.projectImage2}
-                    src="../../images/Surveyform_ccexpress.png"
+                    src="../../images/plp.png"
                     alt="Example of developed website by Vizao Uk"
                 />
                 <p className={styles.projectTitle}>
